@@ -1,0 +1,66 @@
+{
+  "marginal_preserving": {
+    "aucs": {
+      "a_mean": 0.5189440000000001,
+      "a_max": 0.5349760000000001,
+      "a_top_k_tail": 0.47552000000000005,
+      "a_threshold": 0.482384,
+      "b_cusum": 0.836416,
+      "b_sprt": 0.972928,
+      "b_hmm_lr": 0.8027200000000001,
+      "b_runs_test": 0.7882720000000001,
+      "b_autocorr": 0.7914239999999999,
+      "b_seq_clf": 0.9603200000000001
+    },
+    "powers": {
+      "a_mean": 0.048,
+      "a_max": 0.0,
+      "a_top_k_tail": 0.04,
+      "a_threshold": 0.024,
+      "b_cusum": 0.192,
+      "b_sprt": 0.688,
+      "b_hmm_lr": 0.232,
+      "b_runs_test": 0.072,
+      "b_autocorr": 0.232,
+      "b_seq_clf": 0.504
+    },
+    "ks_distance": 0.016066666666666674
+  },
+  "naive": {
+    "aucs": {
+      "a_mean": 1.0,
+      "a_max": 0.976256,
+      "a_top_k_tail": 1.0,
+      "a_threshold": 0.999216,
+      "b_cusum": 0.8836160000000001,
+      "b_sprt": 0.999744,
+      "b_hmm_lr": 0.28105600000000003,
+      "b_runs_test": 0.5297919999999999,
+      "b_autocorr": 1.0,
+      "b_seq_clf": 1.0
+    },
+    "powers": {
+      "a_mean": 1.0,
+      "a_max": 0.576,
+      "a_top_k_tail": 1.0,
+      "a_threshold": 0.968,
+      "b_cusum": 0.328,
+      "b_sprt": 0.992,
+      "b_hmm_lr": 0.008,
+      "b_runs_test": 0.016,
+      "b_autocorr": 1.0,
+      "b_seq_clf": 1.0
+    },
+    "ks_distance": 0.36851999999999996
+  },
+  "config": {
+    "T": 300,
+    "n_benign": 500,
+    "n_attack": 250,
+    "harm_budget": 1.5,
+    "stealth": 0.2,
+    "spread": 150,
+    "target_fpr": 0.01,
+    "seed": 42
+  }
+}
