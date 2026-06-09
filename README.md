@@ -1,6 +1,6 @@
 # The Distributed Sub-Threshold Sabotage Frontier
 
-Code for the NeurIPS paper:  
+Code for the paper:  
 **"The Distributed Sub-Threshold Sabotage Frontier: A Realizability Gate, a Monitor-A-vs-B Reconciliation, and a Demonstrated Detectability Band Against Marginal-Preserving Attacks"**
 
 ## Scientific Summary
