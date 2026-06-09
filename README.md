@@ -93,6 +93,5 @@ All blind to marginal-preserving attacks (by construction).
 
 ## Environment
 
-- CPU-only Linux, Python 3.11
+- Python 3.11
 - Dependencies: numpy 1.26, scipy 1.13, scikit-learn 1.5, matplotlib 3.8
-- No GPU, no network access required for light experiments
