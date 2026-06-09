@@ -45,7 +45,7 @@ python tests/test_benign.py
 python tests/test_attack.py
 python tests/test_monitors.py
 
-# Run all light experiments (< 4 minutes)
+# Run all light experiments
 bash experiments/run_all_experiments.sh
 ```
 
